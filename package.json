@@ -4,7 +4,7 @@
   "description": "Recipe app",
   "default": "index.js",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel index.html --dist-dir ./dir",
     "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Stefan",
