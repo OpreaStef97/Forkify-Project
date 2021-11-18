@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe app",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Stefan",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1",
+    "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "core-js": "^3.19.1",
+    "fractional": "^1.0.0",
+    "img": "^3.0.3",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
